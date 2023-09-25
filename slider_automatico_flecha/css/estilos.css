@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+.slideshow{
+	width: 100%;
+	position: relative;
+}
+
+.slider li, ul{
+	width: 100%;
+}
+
+.slider li{
+	overflow: hidden;
+}
+
+.slider li img{
+	width: 100%;
+}
+
+.left, .right{
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+
+	color: #fff;
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.left{
+	left: 10px;
+}
+
+.right{
+	right: 10px;
+}
